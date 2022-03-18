@@ -39,3 +39,39 @@ img {
   object-fit: cover;
   width: 100%;
 }
+.container {
+  width: 40%;
+  padding-bottom: 5rem;
+}
+.article {
+  background-color: #2c2c6c;
+  text-align: center;
+  border-radius: 2rem;
+  user-select: none;
+  padding: 2rem;
+}
+small {
+  display: block;
+  font-weight: 300;
+  color: #cccc;
+  width: 80%;
+  margin: 0.8rem auto 0;
+}
+.Image{
+  width: 4rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1rem;
+  border: 0.4rem solid #45db55;
+}
+@media (min-width: 900px) {
+  .container {
+    width: 60%;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
